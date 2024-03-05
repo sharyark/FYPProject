@@ -14,7 +14,7 @@ db_ = DBhelper()
 def attendance(name):
     db_.entrance(name)
     print('attendance is called..')
-    # print(name)
+    print(name)
 
     # with open('Attendance.csv', 'r+') as f:
     #     myDataList = f.readlines()
